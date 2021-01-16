@@ -1,0 +1,17 @@
+.process-id { 
+  max-width: 80px;
+}
+
+.execution-green, .execution-red {
+  border: solid 2px;
+  border-radius: 4px;
+  padding: 2px 6px 2px 6px;
+}
+
+.execution-red {
+  border-color: #FF2D2D;
+}
+
+.execution-green {
+  border-color: #25B146;
+}
