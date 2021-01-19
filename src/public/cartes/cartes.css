@@ -1,0 +1,15 @@
+#filterDomain, #filterMachine, #filterProcess {
+    width: 100px;
+}
+
+.planning-modal-title {
+    color: #001A5F;
+}
+
+.hover-blue:hover {
+    color: #001A5F !important;
+}
+
+.modal-header {
+    border: none !important;
+}
