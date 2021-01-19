@@ -1,0 +1,24 @@
+.new-user-modal .modal-content {
+    background-color: #E4E4E4;
+}
+
+.new-user-modal-title {
+    color: #001A5F;
+}
+
+.new-user-btn {
+    border-radius: 16px;
+    border-width: 1px;
+    border-color: #666666;
+}
+
+.new-user-done {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #25B146;
+    background-color: #25B146;
+}
