@@ -1,0 +1,35 @@
+.btn-blue-hover:hover {
+	background-color: #001A5F !important;
+	color: #ffffff;
+}
+
+.hover-blue:hover {
+  color: #001A5F !important;
+}
+
+.btn-rounded {
+	border-radius: 16px;
+	border-width: 1px;
+	border-color: #666666;
+}
+
+.btn-ok {
+	background-color: #666666;
+	color: #ffffff;
+}
+
+.btn-option {
+	padding: .1rem .5rem !important;
+}
+
+.background-gray {
+	background-color: #E4E4E4;
+}
+
+.modal-title-blue {
+    color: #001A5F;
+}
+
+.modal-header {
+	border: none;
+}
