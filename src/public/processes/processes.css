@@ -15,3 +15,11 @@
 .execution-green {
   border-color: #25B146;
 }
+
+.dropdown-menu {
+  min-width: 1rem;
+}
+
+.dropdown-item {
+  padding: 0px;
+}
