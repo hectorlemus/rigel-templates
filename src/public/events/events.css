@@ -1,0 +1,9 @@
+form input {
+    width: 110px !important;
+}
+
+.btn-calendar {
+    border-top-color: rgb(206, 212, 218);
+    border-bottom-color: rgb(206, 212, 218);
+    border-right-color: rgb(206, 212, 218);
+}
