@@ -27,7 +27,8 @@
 }
 
 .modal-title-blue {
-    color: #001A5F;
+	color: #001A5F;
+	font-weight: bold;
 }
 
 .modal-header {
