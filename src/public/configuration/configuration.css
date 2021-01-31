@@ -1,0 +1,5 @@
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #25B146;
+    background-color: #25B146;
+}
