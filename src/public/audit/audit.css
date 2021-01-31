@@ -1,0 +1,28 @@
+.preview, .first-filters {
+    background-color: #E4E4E4;
+}
+
+.preview-text {
+    max-height: 200px;
+    overflow: scroll;
+}
+
+form input {
+    width: 110px !important;
+}
+
+.btn-calendar {
+    border-top-color: rgb(206, 212, 218);
+    border-bottom-color: rgb(206, 212, 218);
+    border-right-color: rgb(206, 212, 218);
+}
+
+.additional-information-img {
+    height: 200px;
+    width: 100%;
+}
+
+.additional-information-text {
+    max-height: 200px;
+    overflow: scroll;
+}
