@@ -1,0 +1,21 @@
+.first-filters {
+    background-color: #E4E4E4;
+}
+
+form input {
+    width: 110px !important;
+}
+
+.btn-calendar {
+    border-top-color: rgb(206, 212, 218);
+    border-bottom-color: rgb(206, 212, 218);
+    border-right-color: rgb(206, 212, 218);
+}
+
+.panel-title {
+    background-color: #666666;
+    padding: 4px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
