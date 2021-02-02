@@ -1,0 +1,12 @@
+.header-gradient {
+    background-image: linear-gradient(to right, #900581 , #CC007F);
+    height: 8px;
+}
+.rigel-image {
+    width: 70%;
+}
+
+body {
+    background-image: url('background.png');
+    background-size: cover;
+}
