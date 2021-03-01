@@ -1,0 +1,9 @@
+body {
+    background-image: url('background.png');
+    background-size: cover;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 10%;
+}
