@@ -3,5 +3,81 @@
 }
 
 .icon-image {
-    width: 15px;
+    width: 20px;
+    filter: grayscale(100%);
+}
+
+.nav-link {
+    color: #666666;
+}
+
+.menu-container{
+    width: 200px;
+    height: 100vh;
+    border-width: 3px;
+    border-right: solid;
+    border-image: linear-gradient(
+        to bottom,
+        #900581,
+        #CC007F
+    ) 1 100%;
+}
+
+.nav-item:hover > .icon-image {
+    filter: grayscale(0%) !important;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    background-size: cover;
+}
+
+.icon-process {
+    background-image: url('./icons/settings.svg');
+}
+
+.nav-item:hover > .icon-process {
+    background-image: url('./icons/settings-selected.svg');
+}
+
+.icon-users {
+    background-image: url('./icons/user-alt.svg');
+}
+
+.nav-item:hover > .icon-users {
+    background-image: url('./icons/user-alt-selected.svg');
+}
+
+.icon-audit {
+    background-image: url('./icons/hammer.svg');
+}
+
+.nav-item:hover > .icon-audit {
+    background-image: url('./icons/hammer-selected.svg');
+}
+
+.icon-charts {
+    background-image: url('./icons/chart-bars.svg');
+}
+
+.nav-item:hover > .icon-charts {
+    background-image: url('./icons/chart-bars-selected.svg');
+}
+
+.icon-events {
+    background-image: url('./icons/event.svg');
+}
+
+.nav-item:hover > .icon-events {
+    background-image: url('./icons/event-selected.svg');
+}
+
+.icon-config {
+    background-image: url('./icons/tools.svg');
+}
+
+.nav-item:hover > .icon-config {
+    background-image: url('./icons/tools-selected.svg');
 }
