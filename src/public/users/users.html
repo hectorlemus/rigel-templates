@@ -1,233 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Usuarios</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-	<link rel="stylesheet" href="../css/shared.css">
-    <link rel="stylesheet" href="./users.css">
-</head>
-<body class="container-fluid">
-	<div class="m-5">
-		<div class="mt-5 mb-5 text-secondary">
-			<div class="row">
-				<div class="col-md-8">
-					<form class="form-inline">
-						<div class="form-group mx-sm-3 mb-3">
-							<label for="role" class="mr-2">Buscar por:</label>
-							<select class="form-control" id="role">
-								<option>Rol</option>
-							</select>
-						</div>
-						<div class="form-group mx-sm-3 mb-3">
-							<input type="text" class="form-control" placeholder="">
-						</div>
-						<button type="submit" class="btn mb-2 ml-3">
-							<i class="fa fa-search fa-2x pb-1 text-secondary" aria-hidden="true"></i>
-						</button>
-					</form>
-				</div>
-				<div class="col-md-4 text-right">
-					<button type="button" class="btn" data-toggle="modal" data-target="#newUserModal">
-						<i class="fa fa-plus fa-lg text-secondary hover-blue" aria-hidden="true"></i>
-					</button>
-	
-					<button type="button" class="btn">
-						<i class="fa fa-floppy-o fa-lg text-secondary" aria-hidden="true"></i>
-					</button>
-				</div>
-			</div>
-		</div>
-	
-		<div class="mt-5 mb-5">
-			<table class="table table-striped text-center text-secondary">
-				<thead>
-					<tr>
-						<th scope="col">Acciones</th>
-						<th scope="col">Rol</th>
-						<th scope="col">Apellido</th>
-						<th scope="col">Nombre</th>
-						<th scope="col">E-mail</th>
-						<th scope="col">Usuario</th>
-						<th scope="col">Activo</th>
-						<th scope="col">Logado</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<button type="button" class="btn">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
-							</button>
-							<button type="button" class="btn">
-									<i class="fa fa-trash" aria-hidden="true"></i>
-							</button>
-						</td>
-						<td>
-								Administrador
-						</td>
-						<td>
-							Apellido1
-						</td>
-						<td>
-								Nombre 1
-						</td>
-						<td>
-								email@email.com
-						</td>
-						<td>
-							Usuario 1
-						</td>
-						<td>
-								<i class="fa fa-check text-success fa-lg" aria-hidden="true"></i>
-						</td>
-						<td>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<button type="button" class="btn">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
-							</button>
-							<button type="button" class="btn">
-									<i class="fa fa-trash" aria-hidden="true"></i>
-							</button>
-						</td>
-						<td>
-								Demo
-						</td>
-						<td>
-							Apellido2
-						</td>
-						<td>
-							Nombre 2
-						</td>
-						<td>
-							demo@email.com
-						</td>
-						<td>
-							Usuario 1
-						</td>
-						<td>
-								<i class="fa fa-check text-danger fa-lg" aria-hidden="true"></i>
-						</td>
-						<td>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-</body>
+    <link rel="stylesheet" href="../css/shared.css" />
+    <link rel="stylesheet" href="./users.css" />
+  </head>
+  <body class="container-fluid">
+    <div class="m-5">
+      <div class="mt-5 mb-5 text-secondary">
+        <div class="row">
+          <div class="col-md-8">
+            <form class="form-inline">
+              <div class="form-group mx-sm-3 mb-3">
+                <label for="role" class="mr-2">Buscar por:</label>
+                <select class="form-control" id="role">
+                  <option>Rol</option>
+                </select>
+              </div>
+              <div class="form-group mx-sm-3 mb-3">
+                <input type="text" class="form-control"/>
+              </div>
+              <button type="submit" class="btn mb-2 ml-3">
+                <i
+                  class="fa fa-search fa-2x pb-2 text-secondary"
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-md-4 text-right">
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#newUserModal"
+            >
+              <i
+                class="fa fa-plus fa-2x text-secondary hover-blue"
+                aria-hidden="true"
+              ></i>
+            </button>
 
-<!-- Modal -->
-<div class="modal fade" id="newUserModal" tabindex="-1" role="dialog" aria-labelledby="newUserModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg" role="document">
-		<div class="modal-content background-gray">
-			<div class="modal-header">
-				<h5 class="modal-title modal-title-blue ml-2" id="newUserModalLabel">Añadir usuario</h5>
-			</div>
-			<div class="modal-body text-secondary">
-				<form action="">
-					<div class="row m-1 pt-4 pb-4 bg-white">
-						<div class="col-md-6">
-							<div class="row mt-4">
-								<div class="col-md-4">
-									<label>Nombre</label>
-								</div>
-								<div class="col-md-8">
-									<input type="text" id="newUserName" class="form-control" placeholder="Nombre">
-								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-md-4">
-									<label>Email</label>
-								</div>
-								<div class="col-md-8">
-									<input type="text" id="newUserEmail" class="form-control" placeholder="Email">
-								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-md-4">
-									<label>Licencia</label>
-								</div>
-								<div class="col-md-8">
-									<select class="form-control" id="newUserLicense">
-										<option>Rol</option>
-									</select>
-								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-md-4">
-									<label>Contraseña</label>
-								</div>
-								<div class="col-md-8">
-									<input type="text" id="newUserPassword" class="form-control" placeholder="Contraseña">
-								</div>
-							</div>
-						</div>
+            <button type="button" class="btn">
+              <i
+                class="fa fa-floppy-o fa-2x text-secondary"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
 
-						<div class="col-md-6">
-							<div class="row mt-4">
-								<div class="col-md-4">
-									<label>Apellido</label>
-								</div>
-								<div class="col-md-8">
-									<input type="text" id="newUserLastName" class="form-control" placeholder="Apellido">
-								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-md-4">
-									<label>Usuario</label>
-								</div>
-								<div class="col-md-8">
-									<input type="text" id="newUserUser" class="form-control" placeholder="Usuario">
-								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-md-8">
-									<label for="newUserActive">El usuario esta activo?</label>
-								</div>
-								<div class="col-4">
-									<label class="font-weight-bolder mr-1">
-										Off
-									</label>
-									<div class="custom-control custom-switch d-inline-block">
-										<input
-										id="newUserActive"
-										type="checkbox"
-										class="custom-control-input">
-										<label class="custom-control-label font-weight-bolder" for="newUserActive">
-											On
-										</label>
-									</div>
-								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-md-4">
-									<label>Confirmar Contraseña</label>
-								</div>
-								<div class="col-md-8">
-									<input type="text" id="newUserConfirmPassword" class="form-control" placeholder="Confirmar Contraseña">
-								</div>
-							</div>
-						</div>
-					</div>
-				</form>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-rounded btn-ok btn-blue-hover" data-dismiss="modal">Aceptar</button>
-				<button type="button" class="btn btn-rounded" data-dismiss="modal" >Cancelar</button>
-			</div>
-		</div>
-	</div>
-</div>
+      <div class="mt-5 mb-5">
+        <table class="table table-striped text-center">
+          <thead>
+            <tr>
+              <th scope="col">Acciones</th>
+              <th scope="col">Rol</th>
+              <th scope="col">Apellido</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Usuario</th>
+              <th scope="col">Activo</th>
+              <th scope="col">Logado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <button type="button" class="btn">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="btn">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </button>
+              </td>
+              <td>Administrador</td>
+              <td>Apellido1</td>
+              <td>Nombre 1</td>
+              <td>email@email.com</td>
+              <td>Usuario 1</td>
+              <td>
+                <i
+                  class="fa fa-check text-success fa-lg"
+                  aria-hidden="true"
+                ></i>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <button type="button" class="btn">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="btn">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </button>
+              </td>
+              <td>Demo</td>
+              <td>Apellido2</td>
+              <td>Nombre 2</td>
+              <td>demo@email.com</td>
+              <td>Usuario 1</td>
+              <td>
+                <i class="fa fa-times text-danger fa-lg" aria-hidden="true"></i>
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="newUserModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="newUserModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content background-gray">
+        <div class="modal-header">
+          <h5 class="modal-title modal-title-blue ml-2" id="newUserModalLabel">
+            Añadir usuario
+          </h5>
+        </div>
+        <div class="modal-body text-secondary font-weight-bold">
+          <form action="">
+            <div class="row m-1 pt-4 pb-4 bg-white rounded">
+              <div class="col-md-6">
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <label>Nombre</label>
+                  </div>
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="newUserName"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <label>Email</label>
+                  </div>
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="newUserEmail"
+                      class="form-control"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <label>Licencia</label>
+                  </div>
+                  <div class="col-md-8">
+                    <select class="form-control" id="newUserLicense">
+                      <option>Rol</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <label>Contraseña</label>
+                  </div>
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="newUserPassword"
+                      class="form-control"/>
+                  </div>
+                </div>
+              </div>
 
+              <div class="col-md-6">
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <label>Apellido</label>
+                  </div>
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="newUserLastName"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <label>Usuario</label>
+                  </div>
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="newUserUser"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-8">
+                    <label for="newUserActive">¿El usuario está activo?</label>
+                  </div>
+                  <div class="col-4 pl-0">
+                    <label class="font-weight-bolder mr-1"> Off </label>
+                    <div class="custom-control custom-switch d-inline-block">
+                      <input
+                        id="newUserActive"
+                        type="checkbox"
+                        class="custom-control-input"
+                      />
+                      <label
+                        class="custom-control-label font-weight-bolder"
+                        for="newUserActive"
+                      >
+                        On
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <label>Confirmar Contraseña</label>
+                  </div>
+                  <div class="col-md-8">
+                    <input
+                      type="text"
+                      id="newUserConfirmPassword"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-rounded btn-ok btn-blue-hover mr-4"
+            data-dismiss="modal"
+          >
+            Aceptar
+          </button>
+          <button type="button" class="btn btn-rounded mr-4" data-dismiss="modal">
+            Cancelar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
 </html>
