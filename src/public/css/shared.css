@@ -2,7 +2,7 @@ body {
 	font-family: 'gothammedium' !important;
  }
 
- .container-fluid {
+.container-fluid {
 	background-image: url('../assets/img/background.png');
 	background-size: cover;
  }
@@ -44,4 +44,9 @@ body {
 
 .modal-header {
 	border: none;
+}
+
+.modal-body {
+	padding-top: 0px;
+	padding-bottom: 0pc;
 }
