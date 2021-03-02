@@ -11,34 +11,34 @@
 	<link rel="stylesheet" href="../css/shared.css">
 	<link rel="stylesheet" href="./configuration.css">
 </head>
-<body class="container">
-	<div class="m-5">
-		<div class="shadow pt-4 pb-4 pr-5 pl-5">
+<body class="container-fluid">
+	<div class="row mt-5">
+		<div class="col-md-8 offset-md-2 mt-5 shadow rounded bg-white p-4">
 			<form>
 				<div class="form-row">
-				  <div class="form-group col-md-6 p-3">
+					<div class="form-group col-md-6 p-3">
 					<label for="email" class="font-weight-bold">Las alertas se enviaran al e-mail:</label>
 					<input type="email" class="form-control" id="email" placeholder="email@email.com">
-				  </div>
-				  <div class="form-group col-md-6 p-3">
+					</div>
+					<div class="form-group col-md-6 p-3">
 					<label for="month" class="font-weight-bold">Se mantendrán los registros en el Log (Meses)</label>
 					<input type="text" class="form-control text-center" id="month" placeholder="5">
-				  </div>
+					</div>
 				</div>
 				<div class="form-row">
 					<div class="form-group col-md-6 p-3">
 						<label for="days" class="font-weight-bold">Se mantendrán las capturas de pantalla (Días)</label>
 						<input type="text" class="form-control text-center" id="days" placeholder="5">
 					</div>
-				  <div class="form-group col-md-6 p-3">
+					<div class="form-group col-md-6 p-3">
 						<label for="language" class="font-weight-bold">Lenguaje:</label>
 						<select class="form-control" id="language">
 							<option>Español</option>
 						</select>
-				  </div>
+					</div>
 				</div>
 				<div class="p-3">
-					<label for="shrinkDatabase" class="font-weight-bold mr-3">El usuario esta activo?</label>
+					<label for="shrinkDatabase" class="font-weight-bold mr-3">Reducir la base de datos:</label>
 					<label for="shrinkDatabase" class="mr-1">Off</label>
 					<div class="custom-control custom-switch d-inline-block">
 						<input id="shrinkDatabase" type="checkbox" class="custom-control-input">
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<div class="text-right">
-					<button type="button" class="btn btn-rounded btn-ok btn-blue-hover">Actualizar</button>
+					<button type="button" class="btn btn-rounded btn-ok mr-4 btn-blue-hover">Actualizar</button>
 				</div>
 			</form>
 		</div>
