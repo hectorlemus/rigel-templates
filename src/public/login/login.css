@@ -5,8 +5,3 @@
 .rigel-image {
     width: 70%;
 }
-
-body {
-    background-image: url('background.png');
-    background-size: cover;
-}

@@ -2,6 +2,11 @@ body {
 	font-family: 'gothammedium' !important;
  }
 
+ .container-fluid {
+	background-image: url('../assets/img/background.png');
+	background-size: cover;
+ }
+
 .btn-blue-hover:hover {
 	background-color: #001A5F !important;
 	color: #ffffff;
