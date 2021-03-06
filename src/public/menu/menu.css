@@ -35,49 +35,49 @@
 }
 
 .icon-process {
-    background-image: url('./icons/settings.svg');
+    background-image: url('../assets/img/icons/settings.svg');
 }
 
 .nav-item:hover > .icon-process {
-    background-image: url('./icons/settings-selected.svg');
+    background-image: url('../assets/img/icons/settings-selected.svg');
 }
 
 .icon-users {
-    background-image: url('./icons/user-alt.svg');
+    background-image: url('../assets/img/icons/user-alt.svg');
 }
 
 .nav-item:hover > .icon-users {
-    background-image: url('./icons/user-alt-selected.svg');
+    background-image: url('../assets/img/icons/user-alt-selected.svg');
 }
 
 .icon-audit {
-    background-image: url('./icons/hammer.svg');
+    background-image: url('../assets/img/icons/hammer.svg');
 }
 
 .nav-item:hover > .icon-audit {
-    background-image: url('./icons/hammer-selected.svg');
+    background-image: url('../assets/img/icons/hammer-selected.svg');
 }
 
 .icon-charts {
-    background-image: url('./icons/chart-bars.svg');
+    background-image: url('../assets/img/icons/chart-bars.svg');
 }
 
 .nav-item:hover > .icon-charts {
-    background-image: url('./icons/chart-bars-selected.svg');
+    background-image: url('../assets/img/icons/chart-bars-selected.svg');
 }
 
 .icon-events {
-    background-image: url('./icons/event.svg');
+    background-image: url('../assets/img/icons/event.svg');
 }
 
 .nav-item:hover > .icon-events {
-    background-image: url('./icons/event-selected.svg');
+    background-image: url('../assets/img/icons/event-selected.svg');
 }
 
 .icon-config {
-    background-image: url('./icons/tools.svg');
+    background-image: url('../assets/img/icons/tools.svg');
 }
 
 .nav-item:hover > .icon-config {
-    background-image: url('./icons/tools-selected.svg');
+    background-image: url('../assets/img/icons/tools-selected.svg');
 }

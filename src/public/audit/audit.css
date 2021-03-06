@@ -25,4 +25,5 @@ form input {
 .additional-information-text {
     max-height: 200px;
     overflow: scroll;
+    border: solid 1pt #707070;
 }

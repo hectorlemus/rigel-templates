@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="./audit.css">
 </head>
 <body class="container-fluid">
-	<div class="m-5 shadow rounded bg-white">
+	<div class="m-2 mt-3 shadow rounded bg-white">
 		<div class="row p-3 pr-4">
 			<div class="col-md-5">
 				<div class="d-inline-block">
@@ -76,14 +76,14 @@
 							<label for="filterMachines" class="mr-2">Máquinas: </label>
 							<input id="filterMachines" type="text" class="form-control">
 						</div>
-						<button type="button" class="btn mb-2 ml-3">
-							<i class="fa fa-search fa-2x pb-1 text-secondary" aria-hidden="true"></i>
+						<button type="button" class="btn mb-3 ml-3">
+							<img src="../assets/img/icons/search.svg">
 						</button>
 					</form>
 				</div>
 				<div class="col-md-2 text-right">
 					<button type="button" class="btn">
-						<i class="fa fa-floppy-o fa-2x text-secondary" aria-hidden="true"></i>
+						<img src="../assets/img/icons/save.svg">
 					</button>
 				</div>
 			</div>
@@ -106,7 +106,6 @@
 					<tbody>
 						<tr>
 							<td>
-								
 								<i class="fa fa-info-circle fa-lg hover-blue mr-2" aria-hidden="true" data-toggle="modal" data-target="#additionalInformationModal"></i>
 								<i class="fa fa-calendar fa-lg hover-blue" aria-hidden="true"></i>
 							</td>
@@ -123,18 +122,18 @@
 			</div>
 			<div class="col-md-3 mb-3">
 				<div class="mt-2 mr-2 p-3 preview rounded text-secondary">
-					<p class="modal-title-blue font-weight-bold mb-4">Vista preliminar</p>
-					<p><span class="font-weight-bold">Computador:</span> Computador 1</p>
-					<p><span class="font-weight-bold">Id Proceso:</span> Computador 1</p>
-					<p><span class="font-weight-bold">PID:</span> Computador 1</p>
-					<p><span class="font-weight-bold">Información:</span></p>
-					<p class="bg-white p-3 text-justify preview-text">
+					<div class="modal-title-blue font-weight-bold mb-4">Vista preliminar</div>
+					<div><span class="font-weight-bold">Computador:</span> Computador 1</div>
+					<div><span class="font-weight-bold">Id Proceso:</span> Computador 1</div>
+					<div><span class="font-weight-bold">PID:</span> Computador 1</div>
+					<div><span class="font-weight-bold">Información:</span></div>
+					<div class="bg-white mt-2 p-2 pr-3 text-justify preview-text">
 						KO - el error se presenta luego de procesar el lote de operaciones relacionadas al proceso contable, dejando en evidencia la falta de ...
 						KO - el error se presenta luego de procesar el lote de operaciones relacionadas al proceso contable, dejando en evidencia la falta de ...
 					</p>
 					<div class="text-primary btn">
-						<i class="fa fa-link" aria-hidden="true"></i> 
-						<span><u>Imagen</u></span>
+						<img src="../assets/img/icons/attachment.svg">
+						<span class="ml-1" ><u>Imagen</u></span>
 					</div>
 				</div>
 			</div>
@@ -206,17 +205,17 @@
 				<div class="modal-body mb-3">
 					<div class="bg-white mt-2 p-3 rounded">
 						<div>
-							<p><span class="font-weight-bold">Proceso:</span> Proceso</p>
-							<p><span class="font-weight-bold">Computador:</span> Computador</p>
-							<p><span class="font-weight-bold">Id Proceso:</span> 1</p>
-							<p><span class="font-weight-bold">PID:</span> 12356</p>
+							<div><span class="font-weight-bold">Proceso:</span> Proceso</div>
+							<div><span class="font-weight-bold">Computador:</span> Computador</div>
+							<div><span class="font-weight-bold">Id Proceso:</span> 1</div>
+							<div><span class="font-weight-bold">PID:</span> 12356</div>
 						</div>
-						<div class="row">
+						<div class="row mt-2">
 							<div class="col-md-6">
-								<img class="additional-information-img" src="./image1.png" alt="additional information">
+								<img class="additional-information-img" src="../assets/img/image1.png" alt="additional information">
 							</div>
 							<div class="col-md-6">
-								<p class="additional-information-text">
+								<p class="additional-information-text rounded p-2">
 									KO - el error se presenta luego de procesar el lote de operaciones relacionadas al proceso contable, dejando en evidencia la falta de condicionales para efectuar la operacopm de forma correcta.
 									KO - el error se presenta luego de procesar el lote de operaciones relacionadas al proceso contable, dejando en evidencia la falta de condicionales para efectuar la operacopm de forma correcta.
 								</p>

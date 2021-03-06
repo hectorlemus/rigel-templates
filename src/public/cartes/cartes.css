@@ -1,3 +1,23 @@
 #filterDomain, #filterMachine, #filterProcess {
     width: 100px;
 }
+
+.watch {
+    background-image: url('../assets/img/icons/clock.svg');
+    background-repeat: no-repeat;
+    height: 21pt;
+}
+
+.watch:hover {
+    background-image: url('../assets/img/icons/clock-selected.svg');    
+}
+
+.monitor {
+    background-image: url('../assets/img/icons/monitor.svg');
+    background-repeat: no-repeat;
+    height: 21pt;
+}
+
+.monitor:hover {
+    background-image: url('../assets/img/icons/monitor-selected.svg');
+}

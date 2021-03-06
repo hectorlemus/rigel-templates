@@ -15,7 +15,7 @@
 </head>
 
 <body class="container-fluid">
-	<div class="m-5 shadow rounded bg-white">
+	<div class="m-2 shadow rounded bg-white">
 		<div class="mt-5 mb-5 text-secondary">
 			<div class="row p-3">
 				<div class="col-md-10">
@@ -38,14 +38,14 @@
 							<label for="filterProcess" class="mr-2">Proceso:</label>
 							<input type="text" class="form-control" id="filterProcess" />
 						</div>
-						<button type="submit" class="btn mb-2 ml-3">
-							<i class="fa fa-search fa-2x pb-1 text-secondary" aria-hidden="true"></i>
+						<button type="submit" class="btn mb-3 ml-3">
+							<img src="../assets/img/icons/search.svg">
 						</button>
 					</form>
 				</div>
 				<div class="col-md-2 text-right">
 					<button type="button" class="btn">
-						<i class="fa fa-floppy-o fa-2x text-secondary" aria-hidden="true"></i>
+						<img src="../assets/img/icons/save.svg">
 					</button>
 				</div>
 			</div>
@@ -70,12 +70,8 @@
 				<tbody>
 					<tr>
 						<td>
-							<button type="button" class="btn" data-toggle="modal" data-target="#planningModal">
-								<i class="fa fa-clock-o fa-lg text-secondary hover-blue" aria-hidden="true"></i>
-							</button>
-							<button type="button" class="btn">
-								<i class="fa fa-desktop fa-lg text-secondary hover-blue" aria-hidden="true"></i>
-							</button>
+							<button type="button" class="btn watch mr-2" data-toggle="modal" data-target="#planningModal"></button>
+							<button type="button" class="btn monitor"></button>
 						</td>
 						<td>Computador1</td>
 						<td>Usuario 1</td>
@@ -83,10 +79,10 @@
 						<td>1</td>
 						<td>Proceso1</td>
 						<td>
-							<i class="fa fa-thumbs-up text-success fa-lg" aria-hidden="true"></i>
+							<img src="../assets/img/icons/thumbs-up.svg">
 						</td>
 						<td>
-							<i class="fa fa-check text-success fa-lg" aria-hidden="true"></i>
+							<img src="../assets/img/icons/check.svg">
 						</td>
 						<td>
 							<span>2020/09/29 10:00</span>
@@ -97,12 +93,9 @@
 					</tr>
 					<tr>
 						<td>
-							<button type="button" class="btn" data-toggle="modal" data-target="#planningModal">
-								<i class="fa fa-clock-o fa-lg text-secondary hover-blue" aria-hidden="true"></i>
+							<button type="button" class="btn watch mr-2" data-toggle="modal" data-target="#planningModal">
 							</button>
-							<button type="button" class="btn">
-								<i class="fa fa-desktop fa-lg text-secondary hover-blue" aria-hidden="true"></i>
-							</button>
+							<button type="button" class="btn monitor"></button>
 						</td>
 						<td>Computador1</td>
 						<td>Usuario 1</td>
@@ -110,10 +103,10 @@
 						<td>1</td>
 						<td>Proceso1</td>
 						<td>
-							<i class="fa fa-thumbs-down text-danger fa-lg" aria-hidden="true"></i>
+							<img src="../assets/img/icons/thumbs-down.svg">
 						</td>
 						<td>
-							<i class="fa fa-check text-success fa-lg" aria-hidden="true"></i>
+							<img src="../assets/img/icons/check.svg">
 						</td>
 						<td>
 							<span>2020/09/29 10:00</span>
@@ -135,7 +128,7 @@
 		<div class="modal-content">
 			<div class="modal-header modal-title-blue">
 				<h5 class="modal-title ml-2" id="planningModal">
-					<i class="fa fa-clock-o" aria-hidden="true"></i>
+					<img class="mb-1" src="../assets/img/icons/clock-selected.svg">
 					<span class="ml-2 font-weight-bold"> Planificación asociada al proceso </span>
 				</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
