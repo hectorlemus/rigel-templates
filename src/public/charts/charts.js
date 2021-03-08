@@ -70,14 +70,6 @@ var barChartConfig = {
 };
 
 window.onload = function() {
-    $('#myCollapsible').collapse({
-        toggle: false
-    })
-
-    $('#myCollapsible').collapse({
-        toggle: false
-    })
-
 	var ctx = document.getElementById('totalOperatingTime1').getContext('2d');
     window.myDoughnut = new Chart(ctx, totalOperatingTimeConfig1);
     
@@ -90,3 +82,7 @@ window.onload = function() {
     var ctx4 = document.getElementById('numberOfOperations').getContext('2d');
     window.chart4 = new Chart(ctx4, barChartConfig);
 };
+
+$(".rotate").click(function () {
+    $(this).toggleClass("down");
+})

@@ -19,3 +19,14 @@ form input {
     margin-top: 30px;
 }
 
+.rotate {
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;  
+    transition: all .3s linear;
+}
+
+.rotate.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
