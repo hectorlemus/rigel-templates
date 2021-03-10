@@ -2,7 +2,7 @@
     width: 150px;
 }
 
-.icon-image {
+.icon-image, .icon-credentials {
     width: 20px;
     filter: grayscale(100%);
 }

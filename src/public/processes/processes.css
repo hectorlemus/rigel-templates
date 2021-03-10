@@ -27,3 +27,139 @@
 .infinite-image {
   width: 15px;
 }
+
+td {
+  vertical-align: middle !important;
+}
+
+.doughnut-chart {
+  background-image: url('../assets/img/icons/chart-pie.svg');
+  background-repeat: no-repeat;
+  height: 23pt;
+  width: 20pt;
+}
+
+.doughnut-chart:hover {
+  background-image: url('../assets/img/icons/chart-pie-selected.svg');
+}
+
+.bar-chart {
+  background-image: url('../assets/img/icons/bar-chart.svg');
+  background-repeat: no-repeat;
+  height: 21pt;
+}
+
+.bar-chart:hover {
+  background-image: url('../assets/img/icons/bar-chart-selected.svg');
+}
+
+.plus {
+  background-image: url('../assets/img/icons/plus.svg');
+  background-repeat: no-repeat;
+  height: 21pt;
+  width: 22pt;
+}
+
+.plus:hover {
+  background-image: url('../assets/img/icons/plus-selected.svg');
+}
+
+.icon-edit {
+  background-image: url('../assets/img/icons/edit.svg');
+  background-repeat: no-repeat;
+  height: 18pt;
+}
+
+.icon-edit:hover {
+  background-image: url('../assets/img/icons/edit-selected.svg');
+}
+
+.icon-trash {
+  background-image: url('../assets/img/icons/trash.svg');
+  background-repeat: no-repeat;
+  height: 18pt;
+}
+
+.icon-trash:hover {
+  background-image: url('../assets/img/icons/trash-selected.svg');
+}
+
+.icon-clock {
+  background-image: url('../assets/img/icons/clock.svg');
+  background-repeat: no-repeat;
+  height: 18pt;
+}
+
+.icon-clock:hover {
+  background-image: url('../assets/img/icons/clock-selected.svg');
+}
+
+.icon-infinite {
+  width: 19px;
+  filter: grayscale(100%);
+}
+
+.icon-infinite:hover {
+  filter: grayscale(0%) !important;
+}
+
+.labels {
+  color: #666666;
+}
+
+.bg-blue {
+  background-color: #001A5F;
+}
+
+.tabs-items {
+  justify-content: space-around;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #E4E4E4;
+  color: #666666;
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  color: #fff;
+  border-color: #E4E4E4;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -2px;
+  width: 180px;
+  text-align: center;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #25B146;
+  background-color: #25B146;
+}
+
+.btn-calendar {
+  border-top-color: rgb(206, 212, 218);
+  border-bottom-color: rgb(206, 212, 218);
+  border-right-color: rgb(206, 212, 218);
+}
+
+.ejambre {
+  background-color: #F2EEEE;
+}
+
+.border-color-gray {
+  border: solid 1px #666666;
+}
+
+.btn-calendar {
+  height: 38px;
+}
+
+.programming-icon {
+  height: 25px;
+}
+
+.programming-icon-action {
+  width: 19px;
+}
