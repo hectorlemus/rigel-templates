@@ -46,3 +46,53 @@ body {
 	padding-top: 0px;
 	padding-bottom: 0pc;
 }
+
+.icon-password {
+	background-image: url('../assets/img/icons/password.svg');
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 45px;
+}
+
+.icon-password:hover {
+  background-image: url('../assets/img/icons/password-selected.svg');
+}
+
+.icon-about {
+	background-image: url('../assets/img/icons/about.svg');
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 45px;
+}
+
+.icon-about:hover {
+  background-image: url('../assets/img/icons/about-selected.svg');
+}
+
+.icon-log-out {
+	background-image: url('../assets/img/icons/log-out.svg');
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 45px;
+}
+
+.icon-log-out:hover {
+  background-image: url('../assets/img/icons/log-out-selected.svg');
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+	min-width: 175px;
+  z-index: 1;
+	right: -70px
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
